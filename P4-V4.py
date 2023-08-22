@@ -35,8 +35,8 @@ forecast_dates = pd.date_range(start=data.index[-1] + timedelta(days=1), periods
 # Moving Average
 df["30-day MA"] = df["Close"].rolling(window=30).mean()
 
-# Replace NaN with 0
-df["30-day MA"] = df["30-day MA"].fillna(0)
+# Remove rows with NaN values in the "30-day MA" column
+df = df.dropna(subset=["30-day MA"])
 
 # Scale the features
 scaler = StandardScaler()
