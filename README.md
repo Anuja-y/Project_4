@@ -7,9 +7,11 @@ Stock prices move for many reasons, whether it's changes in the market, major wo
 
 
 Methodology
+
 Our analysis uses a combination of statistical modeling and machine learning. By using methods such as ARIMA for time series forecasting and Random Forest Regression for prediction, we aim to capture the nuances and intricacies of stock movements.
 
 Features Analysed
+
 For each company, we delve deep into specific stock features to get a holistic view of their stock performance. These features includes: 
 Open Price 
 High
