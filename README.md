@@ -1,15 +1,15 @@
 # Australian Mining Majors Stock Market Analysis
 
-Objective
+#Objective
 
 We aim to study and forecast how stocks of Australia's top ten mining companies might perform. The stock market offers big rewards but comes with its share of risks, making careful study a must. Since mining is key to Australia's economy, it's our main focus for this project.
 Stock prices move for many reasons, whether it's changes in the market, major world events, or shifts in the economy. They can go up or down quickly based on supply meeting demand. We're using machine learning to spot possible patterns in these changes. However, it's important to remember that even with tools like machine learning, it's tough to always predict a stock's exact move given how unpredictable the market can be.
 
-Data
+#Data
+To obtain the essential market data for our stock prediction model, we will employ the yFinance library in Python. This library is made for fetching pertinent data for any given ticker symbol from the Yahoo Finance website. The yFinance library allows us to seamlessly acquire the most recent market data and integrate it into our model.
 
 
-Methodology
-
+#Methodology
 Our analysis uses a combination of statistical modeling and machine learning. By using methods such as ARIMA for time series forecasting and Random Forest Regression for prediction, we aim to capture the nuances and intricacies of stock movements.
 
 
