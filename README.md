@@ -24,3 +24,12 @@ Low
 Close Price 
 Volume 
 Turnover
+
+Limitations of stock Prediction Model  
+The most foundational limitations is that past performance does not guarantee future results . Even if our model captures historical trends perfectly, unpredictable events can always affect stock prices. Sudden shifts in the economy, like recessions or booms can change the stock game .
+
+
+Conclusion
+
+While predictive models for stock markets can provide valuable insights, they should always be used as a tool among many in an investor’s toolkit. It is crucial to combine model outputs with expert judgment, comprehensive research, and a good understanding of the broader market. 
+
