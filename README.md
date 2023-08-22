@@ -1,7 +1,10 @@
-# Project_4
+# Australian Mining Majors Stock Market Analysis
 
 Objective
-This project aims to analyse and predict the stock performance of the ten most prominent mining companies in Australia. The stock market, with its potential for high returns and inherent risk, requires thorough analysis to make informed decisions. By focusing on the mining sector, which plays a pivotal role in the Australian economy, our analysis hopes to provide critical insights into market dynamics and trends.
+
+We aim to study and forecast how stocks of Australia's top ten mining companies might perform. The stock market offers big rewards but comes with its share of risks, making careful study a must. Since mining is key to Australia's economy, it's our main focus for this project.
+Stock prices move for many reasons, whether it's changes in the market, major world events, or shifts in the economy. They can go up or down quickly based on supply meeting demand. We're using machine learning to spot possible patterns in these changes. However, it's important to remember that even with tools like machine learning, it's tough to always predict a stock's exact move given how unpredictable the market can be.
+
 
 Methodology
 Our analysis uses a combination of statistical modeling and machine learning. By using methods such as ARIMA for time series forecasting and Random Forest Regression for prediction, we aim to capture the nuances and intricacies of stock movements.
