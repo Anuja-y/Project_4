@@ -51,6 +51,8 @@ Partition the data into training, testing, and validation subsets.
 Assess the performance of the models.
 Summarize our findings in the conclusion.
 
+Optimal Model Selection
+After evaluating both the RMSE Score and R^2 Score, the SVM model with fine-tuning emerges as the superior choice for the project
 
 Limitations of stock Prediction Model  
 The most foundational limitations is that past performance does not guarantee future results . Even if our model captures historical trends perfectly, unpredictable events can always affect stock prices. Sudden shifts in the economy, like recessions or booms can change the stock game .
