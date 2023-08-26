@@ -2,34 +2,48 @@
 
 Objective
 
-We aim to study and forecast how stocks of Australia's top ten mining companies might perform. The stock market offers big rewards but comes with its share of risks, making careful study a must. Since mining is key to Australia's economy, it's our main focus for this project.
-Stock prices move for many reasons, whether it's changes in the market, major world events, or shifts in the economy. They can go up or down quickly based on supply meeting demand. We're using machine learning to spot possible patterns in these changes. However, it's important to remember that even with tools like machine learning, it's tough to always predict a stock's exact move given how unpredictable the market can be.
+This project aims to analyze and predict the stock performance of mining companies in Australia. The stock market, with its allure of high returns, also comes with its fair share of risks. Consequently, rigorous analysis is imperative for informed investment decisions. Considering the pivotal role that the mining sector holds in the Australian economy, our study seeks to shed light on market dynamics and evolving trends. While our primary focus is on the BHP Group, the code is designed to be adaptable, allowing users to switch to their company of interest.
+
+Machine Learning Workflow
+
+- Data Collection & Exploration 
+- Data Visualization
+- Feature selection
+- Split the data into Train, Test and Validation sets
+- Implementing model prediction and evaluation
 
 Data
 
 To obtain the essential market data for our stock prediction model, we will employ the yFinance library in Python. This library is made for fetching pertinent data for any given ticker symbol from the Yahoo Finance website. The yFinance library allows us to seamlessly acquire the most recent market data and integrate it into our model.
+
+Data Visualization
+In the project, we used two visualization tools: Tableau for its user-friendly interface and the library Matplotlib in Python.
+
+
+Features Analysed
+Date :  Calendar date of the trading day. 
+Open : Opening price of the trading day. 
+High : Highest price of the stock traded during the day.
+Low : Lowest price of the stock traded during the day.
+Close : Closing price of the trading day.
+Adj Close : Adjusted closing price of the trading day.
+Volume : Number of shares traded in exchange during the day.
 
 
 Methodology
 
 Our analysis uses a combination of statistical modeling and machine learning. By using methods such as ARIMA for time series forecasting and Random Forest Regression for prediction, we aim to capture the nuances and intricacies of stock movements.
 
+Technical indicators
+RSI (Relative Strength Index): Measures the momentum of price movements to identify overbought or oversold conditions.
+SMA (Simple Moving Average): Averages stock prices over a specific period to identify trends by smoothing out price fluctuations.
+Standard Deviation: Assesses price volatility by determining the variation of stock prices from their average
 
-Features Analysed
-
-For each company, we delve deep into specific stock features to get a holistic view of their stock performance. These features includes: 
-Open Price 
-High
-Low
-Close Price 
-Volume 
-Turnover
 
 Limitations of stock Prediction Model  
 The most foundational limitations is that past performance does not guarantee future results . Even if our model captures historical trends perfectly, unpredictable events can always affect stock prices. Sudden shifts in the economy, like recessions or booms can change the stock game .
 
 
 Conclusion
-
-While predictive models for stock markets can provide valuable insights, they should always be used as a tool among many in an investor’s toolkit. It is crucial to combine model outputs with expert judgment, comprehensive research, and a good understanding of the broader market. 
+While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
 
