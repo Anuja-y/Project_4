@@ -43,21 +43,23 @@ Implementation
 Comparing benchmark and proposed models.
 
 Procedure:
-Retrieve the raw data.
-Engage in feature selection, emphasizing technical indicators.
-Determine the relevant features and target dataframe.
-Normalize the dataset.
-Partition the data into training, testing, and validation subsets.
-Assess the performance of the models.
-Summarize our findings in the conclusion.
+- Retrieve the raw data.
+- Engage in feature selection, emphasizing technical indicators.
+- Determine the relevant features and target dataframe.
+- Normalize the dataset.
+- Partition the data into training, testing, and validation subsets.
+- Assess the performance of the models.
+- Summarize our findings in the conclusion.
 
 Optimal Model Selection
-After evaluating both the RMSE Score and R^2 Score, the SVM model with fine-tuning emerges as the superior choice for the project
+- After evaluating both the RMSE Score and R^2 Score, the SVM model with fine-tuning emerges as the superior choice for the project
 
 Limitations of stock Prediction Model  
-The most foundational limitations is that past performance does not guarantee future results . Even if our model captures historical trends perfectly, unpredictable events can always affect stock prices. Sudden shifts in the economy, like recessions or booms can change the stock game .
+
+- The most foundational limitations is that past performance does not guarantee future results . Even if our model captures historical trends perfectly, unpredictable events can always affect stock prices. Sudden shifts in the economy, like recessions or booms can change the stock game .
 
 
 Conclusion
-While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
+
+- While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
 
