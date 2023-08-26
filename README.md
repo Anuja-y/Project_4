@@ -1,4 +1,4 @@
-# Australian Mining Comapany Stock Market Analysis
+# Australian Mining Company Stock Market Analysis
 
 Objective
 
