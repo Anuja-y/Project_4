@@ -21,13 +21,13 @@ In the project, we used two visualization tools: Tableau for its user-friendly i
 
 
 Features Analysed
-Date :  Calendar date of the trading day. 
-Open : Opening price of the trading day. 
-High : Highest price of the stock traded during the day.
-Low : Lowest price of the stock traded during the day.
-Close : Closing price of the trading day.
-Adj Close : Adjusted closing price of the trading day.
-Volume : Number of shares traded in exchange during the day.
+- Date :  Calendar date of the trading day. 
+- Open : Opening price of the trading day. 
+- High : Highest price of the stock traded during the day.
+- Low : Lowest price of the stock traded during the day.
+- Close : Closing price of the trading day.
+- Adj Close : Adjusted closing price of the trading day.
+- Volume : Number of shares traded in exchange during the day.
 
 
 Methodology
@@ -38,6 +38,18 @@ Technical indicators
 RSI (Relative Strength Index): Measures the momentum of price movements to identify overbought or oversold conditions.
 SMA (Simple Moving Average): Averages stock prices over a specific period to identify trends by smoothing out price fluctuations.
 Standard Deviation: Assesses price volatility by determining the variation of stock prices from their average
+
+Implementation
+Comparing benchmark and proposed models.
+
+Procedure:
+Retrieve the raw data.
+Engage in feature selection, emphasizing technical indicators.
+Determine the relevant features and target dataframe.
+Normalize the dataset.
+Partition the data into training, testing, and validation subsets.
+Assess the performance of the models.
+Summarize our findings in the conclusion.
 
 
 Limitations of stock Prediction Model  
