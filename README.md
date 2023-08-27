@@ -52,7 +52,7 @@ Procedure:
 - Summarize our findings in the conclusion.
 
 Optimal Model Selection
-- After evaluating both the RMSE Score and R^2 Score, the SVM model with fine-tuning emerges as the superior choice for the project
+- Based on our label data and the features considered, the SVR emerged as the best model, especially when evaluating the RMSE and R^2 scores.
 
 Limitations of stock Prediction Model  
 
@@ -60,6 +60,6 @@ Limitations of stock Prediction Model
 
 
 Conclusion
-
-- While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
+Based on our label data and the features considered, the SVR proved to be the best model, especially when evaluating the RMSE and R^2 scores.
+ While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
 
