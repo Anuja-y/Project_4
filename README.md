@@ -2,13 +2,13 @@
 
 Objective
 
-This project aims to analyze and predict the stock performance of mining companies in Australia. The stock market, with its allure of high returns, also comes with its fair share of risks. Consequently, rigorous analysis is imperative for informed investment decisions. Considering the pivotal role that the mining sector holds in the Australian economy, our study seeks to shed light on market dynamics and evolving trends. While our primary focus is on the BHP Group, the code is designed to be adaptable, allowing users to switch to their company of interest.
+This project aims to analyze and predict the stock performance of mining companies in Australia using various machine learning methods to ensure optimal results. The Australian stock market, known for its potential for high returns and inherent risks, necessitates a rigorous analysis to make informed investment decisions. Considering the pivotal role the mining sector plays in the Australian economy, our research endeavors to provide critical insights into market dynamics and emerging trends.
 
 Machine Learning Workflow
 
-- Data Collection & Exploration 
-- Data Visualization
+- Data Collection & Exploration
 - Feature selection
+- Data Visualization
 - Split the data into Train, Test and Validation sets
 - Implementing model prediction and evaluation
 
@@ -18,9 +18,11 @@ To obtain the essential market data for our stock prediction model, we will empl
 
 Data Visualization
 In the project, we used two visualization tools: Tableau for its user-friendly interface and the library Matplotlib in Python.
+https://prod-apsoutheast-a.online.tableau.com/#/site/flormartinauss/workbooks/329434?:origin=card_share_link 
 
 
 Features Analysed
+First Part 
 - Date :  Calendar date of the trading day. 
 - Open : Opening price of the trading day. 
 - High : Highest price of the stock traded during the day.
@@ -29,10 +31,17 @@ Features Analysed
 - Adj Close : Adjusted closing price of the trading day.
 - Volume : Number of shares traded in exchange during the day.
 
+  Second Part
+  In addition to the features we have used in the first part we have added these technical indicators to improve the model performance:
+- RSI measures momentum
+- SMA calculates trend, 
+- Standard Deviation quantifies volatility.
+
 
 Methodology
 
-Our analysis uses a combination of statistical modeling and machine learning. By using methods such as ARIMA for time series forecasting and Random Forest Regression for prediction, we aim to capture the nuances and intricacies of stock movements.
+Our analysis uses a combination of statistical modeling and machine learning. By employing methods LSTM for time series forecasting and Random Forest Regression for prediction, we aim to capture the nuances and complexities of stock movements. Additionally, we utilize technical indicators such as the Relative Strength Index, Simple Moving Average, and Standard Deviation.
+
 
 Technical indicators
 RSI (Relative Strength Index): Measures the momentum of price movements to identify overbought or oversold conditions.
@@ -52,7 +61,7 @@ Procedure:
 - Summarize our findings in the conclusion.
 
 Optimal Model Selection
-- Based on our label data and the features considered, the SVR emerged as the best model, especially when evaluating the RMSE and R^2 scores.
+- Based on our label data and the features considered, the SVR emerged as the best model, especially when evaluating the RMSE and R2 scores.
 
 Limitations of stock Prediction Model  
 
@@ -60,6 +69,7 @@ Limitations of stock Prediction Model
 
 
 Conclusion
-Based on our label data and the features considered, the SVR proved to be the best model, especially when evaluating the RMSE and R^2 scores.
- While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
+- Based on our label data and the features considered, the SVR emerged as the best model, especially when evaluating the RMSE and R2 scores.
+While predictive models offer valuable insights into stock market trends, they should be viewed as one component of an investor's decision-making process. It's essential to integrate these model insights with expert guidance, thorough research, and an understanding of the broader market context.
+
 
